@@ -29,7 +29,7 @@ The logger also adds the http headers of the request, which can be used to ident
 
 # Why save the data in a database, instead of using Datadog, Elastic, or one of the other tools we have out there?
 
-We live in the age of DataScience. Traditional architectures harvested log data using ETL/ELT and after a delayed period of time, the data was available for analysis. Using WindTrap saves you development of ETL Pipelines on top of your log files (at least while prototyping a system)
+We live in the age of Data Science. Traditional architectures harvested log data using ETL/ELT and after a delayed period of time, the data was available for analysis. Using WindTrap saves you development of ETL Pipelines on top of your log files (at least while prototyping a system)
 
 Logs are important. Having them collected inside your project, having full ownership and the freedom to customize, reduces your dependency on 3rd party service provider and reduces your projects' cyber attack surface. WindTrap doesn't rely on log4j or any similar library, so if you choose to use it in your application, the risks are reduced.
 
