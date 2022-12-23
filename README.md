@@ -1,5 +1,5 @@
 # Disclaimer
-I'm running a project on digital ocean, and since I need a consolidated logger for a micro-service architecture, and the current log collection plugins were not working for me, I decided to write my own. WindTrap is cloud-agnostic, and can be deployed on all major cloud platforms that support Mongodb, Postgres, Flask, and Python. Using this software allows you to save about 2 days of implementation, and reduce your reliablity on 3rd party servicves.
+I'm running a project on digital ocean, and since I need a consolidated logger for a micro-service architecture, and the current log collection plugins were not working for me, I decided to write my own. WindTrap is cloud-agnostic, and can be deployed on all major cloud platforms that support Mongodb, Postgres, Flask, and Python. Using this software allows you to save about 2 days of implementation, and reduce your reliablity on 3rd party services.
 
 # WindTrap
 WindTrap is a simple service that can be used to collect events from multiple services and store them in a database, for logging and error resolution, as well as collecting events used later for reporting, data science and machine learning capabilities.
